@@ -96,19 +96,19 @@
       },
       "routes": [
         {
-          "name": "RouteListReport",
-          "pattern": ":?query:",
+          "name": "ListReport",
+          "pattern": "",
           "target": [
-            "TargetListReport"
+            "listReport"
           ]
         }
       ],
       "targets": {
-        "TargetListReport": {
+        "listReport": {
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
-          "viewId": "ListReport",
+          "viewId": "listReport",
           "viewName": "ListReport"
         }
       }
