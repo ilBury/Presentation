@@ -29,3 +29,5 @@ server:
       configuration:
         component: pres.app.presentationapp
         ui5Theme: sap_horizon
+    - name: ui5-tooling-transpile-middleware
+      afterMiddleware: compression
