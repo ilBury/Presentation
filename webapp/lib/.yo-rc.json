@@ -1,0 +1,16 @@
+{
+  "generator-ui5-library": {
+    "libraryname": "mylibrary",
+    "namespace": "app",
+    "framework": "SAPUI5",
+    "frameworkVersion": "1.86.3",
+    "author": "Ilya Bury",
+    "newdir": true,
+    "namespaceURI": "app",
+    "librarynamespace": "app.mylibrary",
+    "librarynamespaceURI": "app/mylibrary",
+    "librarybasepath": "../../",
+    "frameworklowercase": "sapui5",
+    "setupCompleted": true
+  }
+}

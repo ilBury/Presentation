@@ -53,8 +53,12 @@
       "libs": {
         "sap.m": {},
         "sap.ui.core": {},
-        "sap.ui.comp": {}
+        "sap.ui.comp": {},
+        "app.mylibrary": {}
       }
+    },
+    "resourceRoots": {
+      "app.mylibrary": "./lib/src/app/mylibrary"
     },
     "contentDensities": {
       "compact": true,

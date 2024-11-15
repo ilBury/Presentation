@@ -11,7 +11,8 @@
         "outDir": "./dist",
         "typeRoots": [
             "./node_modules/@types",
-            "./node_modules/@sapui5/types"
+            "./node_modules/@sapui5/types",
+            "./webapp/types"
         ],
         "paths": {
             "app/products/*": [

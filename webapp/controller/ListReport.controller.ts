@@ -7,6 +7,7 @@ import ODataModel from "sap/ui/model/odata/v2/ODataModel";
 import Event from "sap/ui/base/Event";
 import ColumnListItem from "sap/m/ColumnListItem";
 import TileType from "../control/Tile"
+import ReuseLib from "app/mylibrary/Example"
 
 interface Product {
     ID: number;
@@ -39,6 +40,9 @@ sap.ui.define([
 
         onAfterRendering: function() {
             this._fetchData();
+
+            
+
         },
 
         _fetchData: function() {

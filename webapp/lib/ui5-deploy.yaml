@@ -1,0 +1,19 @@
+specVersion: '2.4'
+metadata:
+  name: "mylibrary"
+type: library
+resources:
+  configuration:
+    propertiesFileSourceEncoding: UTF-8
+builder:
+  resources:
+    excludes:
+      - "/test/**"
+      - "/localService/**"
+  customTasks:
+  - name: ui5-task-zipper
+    afterTask: uglify
+    configuration:
+      archiveName: library
+      additionalFiles:
+      - xs-app.json
