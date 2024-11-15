@@ -6,7 +6,7 @@ import  TextType  from "sap/m/Text"
 import ODataModel from "sap/ui/model/odata/v2/ODataModel";
 import Event from "sap/ui/base/Event";
 import ColumnListItem from "sap/m/ColumnListItem";
-
+import TileType from "../control/Tile"
 
 interface Product {
     ID: number;
@@ -23,13 +23,15 @@ sap.ui.define([
     "sap/m/MessageToast",
     "sap/m/Dialog",
     "sap/m/Button",
-    "sap/m/Text"
+    "sap/m/Text",
+    "../control/Tile"
 ], function(
     Controller: typeof ControllerType, 
     MessageToast: typeof MessageToastType, 
     Dialog: typeof DialogType, 
     Button: typeof ButtonType, 
-    Text: typeof TextType
+    Text: typeof TextType,
+    Tile: typeof TileType
 ) {
     "use strict";
 

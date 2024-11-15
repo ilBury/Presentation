@@ -2,7 +2,7 @@
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns:f="sap.f"
-	xmlns:cc="app.products.control"
+	xmlns:cc="pres.app.presentationapp.control"
 	xmlns:smartTable="sap.ui.comp.smarttable"
 	xmlns:smartFilterBar="sap.ui.comp.smartfilterbar"
 	controllerName="pres.app.presentationapp.controller.ListReport">
@@ -37,6 +37,7 @@
 		
 		<f:content>
 			<VBox>
+				<cc:Tile text="custom control text" />
 				<smartTable:SmartTable 
 					entitySet="Products" 
 					enableAutoColumnWidth="true"
