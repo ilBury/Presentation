@@ -30,16 +30,6 @@ sap.ui.define([
             this._fetchData();
         },
 
-        onBeforeRebindTable: function(oEvent) {
-            const oBindingParams = oEvent.getParameter("bindingParams");
-            const oSmartFilterBar = this.byId("idSmartFilterBar");
-            const aFilters = oSmartFilterBar.getFilters();
-            
-            if (aFilters && aFilters.length) {
-                oBindingParams.filters = aFilters;
-            }
-        },
-
         onEditItem: function(oEvent) {
             const oItem = oEvent.getSource();
             const oBindingContext = oItem.getBindingContext();
