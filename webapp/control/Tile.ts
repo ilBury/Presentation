@@ -9,10 +9,6 @@ import Icon from "sap/ui/core/Icon"
  * @namespace pres.app.presentationapp.control
  */
 export default class Tile extends Control {
-    
-    constructor(idOrSettings?: string | $TileSettings);
-    constructor(id?: string, settings?: $TileSettings);
-    constructor(id?: string, settings?: $TileSettings) { super(id, settings); }
 
     static readonly metadata = {
         properties: {
