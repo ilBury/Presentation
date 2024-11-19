@@ -1,4 +1,4 @@
-/* declare module "app/mylibrary/Example" {
+declare module "app/mylibrary/Example" {
     import Control from "sap/ui/core/Control";
 
     export default class Example extends Control {
@@ -15,4 +15,4 @@
        
         firePress(): this;
     }
-} */
+}

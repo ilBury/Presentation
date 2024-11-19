@@ -11,7 +11,7 @@
   "devDependencies": {
     "@sap-ux/ui5-middleware-fe-mockserver": "2",
     "@sap/ux-ui5-tooling": "1",
-    "@ui5/cli": "^3.11.4",
+    "@ui5/cli": "^3.11.5",
     "ui5-tooling-transpile": "^3.5.1"
   },
   "scripts": {
