@@ -9,6 +9,7 @@ import ColumnListItem from "sap/m/ColumnListItem";
 import TileType from "../control/Tile"
 import ReuseLib from "app/mylibrary/Example"
 
+
 interface Product {
     ID: number;
     Name: string;
@@ -18,6 +19,7 @@ interface Product {
     Rating: number;
     Price: number;
 }
+
 
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
@@ -38,11 +40,12 @@ sap.ui.define([
 
     return Controller.extend("pres.app.presentationapp.controller.ListReport", {
 
+        onInit: function() {
+           
+        },
+
         onAfterRendering: function() {
             this._fetchData();
-
-            
-
         },
 
         _fetchData: function() {

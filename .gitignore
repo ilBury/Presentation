@@ -2,9 +2,6 @@ node_modules/
 dist/
 .scp/
 .env
-webapp/lib/node_modules/
-webapp/lib/mta_archives/
-webapp/lib/resources/
 Makefile*.mta
 mta_archives
 mta-*
